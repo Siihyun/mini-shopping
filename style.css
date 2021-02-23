@@ -31,25 +31,33 @@ body {
 }
 
 .shop {
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
   margin: 0 auto;
   margin-top: 5rem;
 }
 
 .buttons {
+  width: 100%;
   margin-top: 2rem;
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 button {
+  background-color: transparent;
   outline: none;
   border: none;
   cursor: pointer;
+  margin-right: 1rem;
+}
+
+.colorBtn {
+  padding: 0.25rem 1.25rem;
+  border-radius: 5%;
+  font-size: 1.25rem;
 }
 
 .black {
@@ -69,13 +77,13 @@ button {
 }
 
 .clothes {
-  width: 30px;
-  height: 30px;
+  width: 3.75rem;
+  height: 3.75rem;
 }
 
 .items {
-  width: 100%;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .item {
@@ -89,6 +97,8 @@ button {
 .item img {
   margin-right: 1.5rem;
   margin-left: 1rem;
+  width: 2.813rem;
+  height: 2.813rem;
 }
 
 button:hover {
