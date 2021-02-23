@@ -1,0 +1,101 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  height: 100vh;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.black {
+  background-color: var(--color-black);
+}
+
+.blue {
+  background-color: var(--color-blue);
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.pink {
+  background-color: var(--color-pink);
+}
+
+.clothes {
+  width: 30px;
+  height: 30px;
+}
+
+.items {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+
+  background-color: var(--color-white);
+}
+
+.item img {
+  margin-right: 1.5rem;
+  margin-left: 1rem;
+}
+
+button:hover {
+  transition: all 300ms ease-in;
+  transform: scale(1.1);
+}
+
+.logo {
+  cursor: pointer;
+}
