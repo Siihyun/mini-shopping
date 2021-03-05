@@ -109,3 +109,7 @@ button:hover {
 .logo {
   cursor: pointer;
 }
+
+.invisible {
+  display: none;
+}
